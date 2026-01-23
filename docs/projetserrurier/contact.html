@@ -80,6 +80,17 @@
     <div class="copyright">
     © Copyright 2025 - Serrurier Moreau - Tous droits réservés
     </div>
+     <script>
+document.getElementById("contactForm").addEventListener("submit",function(e){
+  e.preventDefault();//empeche l'envoi reel
 
+  //afficher le message
+  document.getElementById("successMessage").slyle.display="block";
+
+  // vider le formulaire
+  this.reset();
+});
+          </script>
+                
 </body>
 </html>
