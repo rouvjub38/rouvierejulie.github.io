@@ -1,4 +1,4 @@
-document.getElementById("contatcForm").addEventListener("submit",function(e){
+document.getElementById("contactForm").addEventListener("submit",function(e){
   e.preventDefault();//empeche l'envoi reel
 
   //afficher le message
