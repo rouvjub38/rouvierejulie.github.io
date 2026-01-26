@@ -162,7 +162,7 @@ p{
     flex-direction : raw;
     background-color:  rgb(152, 210, 210,0.8);
     padding 25px;
-    margin: 25px;
+    margin: auto;
     border-radius: 10px;
     
 }
