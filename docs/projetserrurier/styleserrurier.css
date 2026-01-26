@@ -124,7 +124,7 @@ p{
 .conteneur {
     width: clamp (150px, 15vw, 180px);
     background-image: url("images/cles2.jpg");
-    padding: 50px;
+    padding: 30px;
     display: grid ;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows:400px ;
@@ -139,7 +139,7 @@ p{
     overflow : hidden;
     background-color:  rgb(152, 210, 210,0.8);
     padding 50px;
-    margin: 25px;
+    margin: auto;
     border-radius: 10px;
     
 }
