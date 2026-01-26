@@ -138,6 +138,12 @@ p{
         
     }
 }
+    @media (min-width : 768px){
+    .conteneur {
+        flex-direction : raw ;
+        
+    }
+}
 
 .box_1 {
    display:flex
