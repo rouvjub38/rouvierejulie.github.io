@@ -155,11 +155,11 @@ p{
 }
 
 .box_2{
+    display:flex
+    flex-direction : raw;
     width: 100%;
     height: 100%;
     overflow : hidden;
-    display:flex
-    flex-direction : raw;
     background-color:  rgb(152, 210, 210,0.8);
     padding 25px;
     margin: auto;
