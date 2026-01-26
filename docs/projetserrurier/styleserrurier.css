@@ -140,14 +140,14 @@ p{
 }
     @media (min-width : 768px){
     .conteneur {
-        flex-direction : raw ;
+        flex-direction : row ;
         
     }
 }
 
 .box_1 {
    display:flex
-    flex-direction : raw;
+    flex-direction : row;
     width: 100%;
     height: 100%;
     overflow : hidden;
