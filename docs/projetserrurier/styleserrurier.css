@@ -36,7 +36,7 @@ header{
 
 @media (max-width:768px){
     .bouton_telephone {
-        display : none;
+        display :block;
     }
 }
 
