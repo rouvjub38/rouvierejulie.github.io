@@ -33,10 +33,7 @@ header{
     background-color: rgb(180, 232, 232);
     
 }
-@media (max-width : 768px){
-    .bouton_telephone {
-        display : none;
-    }
+
 
 .menu {
     background-color: rgb(212, 208, 208);
@@ -132,18 +129,7 @@ p{
     display:flex;
     gap: 20px;
 }
-@media (max-width : 768px){
-    .conteneur {
-        flex-direction : column ;
-        
-    }
-}
-    @media (min-width : 768px){
-    .conteneur {
-        flex-direction : row ;
-        
-    }
-}
+
 
 .box_1 {
    display:flex
