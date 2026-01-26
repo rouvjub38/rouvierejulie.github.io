@@ -34,6 +34,12 @@ header{
     
 }
 
+@media (max-width:768px){
+    .bouton_telephone {
+        display : inline-block;
+    }
+}
+
 
 .menu {
     background-color: rgb(212, 208, 208);
