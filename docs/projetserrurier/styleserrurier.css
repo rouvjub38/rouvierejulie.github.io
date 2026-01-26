@@ -127,13 +127,18 @@ p{
     background-image: url("images/cles2.jpg");
     padding: 30px;
     display:flex;
-    flex-direction: row;
+
     gap: 20px;
 }
 
 @media(max-width:768px){
     .conteneur{
         flex-direction:column;
+    }
+}
+@media(min-width:768px){
+    .conteneur   {
+        flex-direction:row;
     }
 }
 
