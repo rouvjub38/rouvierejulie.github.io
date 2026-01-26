@@ -5,7 +5,7 @@ header{
 }
 
 .bouton_telephone{
-    display:inline-block;
+    display:block;
     justify-content:space-around;
     padding: 1rem;
     height: 25px;
