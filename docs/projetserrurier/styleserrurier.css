@@ -130,7 +130,7 @@ p{
     grid-template-rows:400px ;
     gap: 20px;
 }
-@media (max-wodth : 768px){
+@media (max-width : 768px){
     .conteneur {
         flex-direction : column ;
     }
