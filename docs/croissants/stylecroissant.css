@@ -204,4 +204,10 @@ footer {
         gap: 10px;
         text-align: center;
     }
+    .photo {
+        width:400px;
+        height: auto;
+    }
+
+    
 }
