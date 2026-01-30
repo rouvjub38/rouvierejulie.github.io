@@ -2,14 +2,14 @@
 <html lang="fr">
     <head>
         <meta charset="UTF-8">
-        <title>à propos</title>
+        <title>Commmander</title>
         <link rel="stylesheet" href="stylecroissant.css">
           <script src="script.js" defer></script>
     </head>
  <header>
         <div class="logo">
             <img src="images/logo.svg" alt="logo">
-            <h1> Le concept</h1>
+            <h1> Passer Commande</h1>
         </div>
 
         <div class="burger" onclick="toggleMenu()">☰</div>
@@ -22,28 +22,47 @@
         </nav>
     </header>
     <body>
-        <section class="presentation">
-           
-            <p>
-                Café-Croissant est un lieu chaleureux où l'artisanat,
-                la gourmandise et la convivialité se rencontrent.
-            </p>
+        
+        <section class="commande">
+            <h2>Passer commande</h2>
 
-             <section class="hero">
-        <img class="photo" src="images/table.jpg" alt="table">
-    </section>
+            <select>
+                <option>Choisir une viennoiserie</option>
+                <option>Croissant</option>
+                <option>Pain au chocolat</option>
+                <option>Chausson aux pommes</option>
+            </select>
+
+            <select>
+                <option>Choisir une boisson</option>
+                <option>Café</option>
+                <option>Thé</option>
+                <option>Chocolat chaud</option>
+                <option>Jus d'oranges</option>
+                <option>Jus de pommes</option>
+            </select>
+
+            <select>
+                <option>Sur place</option>
+                <option>à emporter</option>
+            </select>
+
+            <br>
+            <button onclick="confirmerCommande()">Commander</button>
+
+            <p id="confirmation"></p>
         </section>
     </body>
      <footer>
-        <img class="logopetit" src="images/logo.svg" >
+        <img class="logopetit" src="images/logo.svg">
         <nav>
             <a href="index.html">accueil</a> |
             <a href="produits.html">nos produits</a> |
             <a href="apropos.html">à propos</a>
 
         </nav>
-    </footer>
-      <div class="copyright">
+    </footer>  
+    <div class="copyright">
     © Copyright 2025 - Café-Croissant - Tous droits réservés
     </div>
 </html>
